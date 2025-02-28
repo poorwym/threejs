@@ -9,10 +9,24 @@ npm create vite@latest . -- --template react
 ```
 
 ```bash
-npm install tailwindcss @tailwindcss/vite
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+```
+
+index.css中加入
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
 
 ```bash
 npm install --legacy-peer-deps @react-three/drei @react-three/fiber maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 ```
+
+``bash
+npm run dev
+```
+
+
 
