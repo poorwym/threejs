@@ -33,6 +33,12 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas />
+
+      <div className='absolute xs:bottom-10 
+      bottom-32 w-full flex justify-center items-center'> {/* 参数解释：absolute 使元素相对于父元素定位，xs:bottom-10 使元素距离底部10px，bottom-32 使元素距离底部32px，w-full 使元素占据整个宽度，flex 使元素水平排列，justify-center 使元素水平居中，items-center 使元素垂直居中 */}
+        <a href='#about'>
+        </a>
+      </div>
     </section>
   )
 }
